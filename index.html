@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app='timeApp'>
+  <head>
+    <meta charset="utf-8">
+    <title>Time Directive</title>
+  </head>
+  <body ng-controller='mainCtrl'>
+
+    <h1>Hello, {{name}}</h1>
+
+    <show-time></show-time>
+
+
+    <!-- Including angular and ui-router then our javascript files. ORDER MATTERS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.7/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
+
+    <script type="text/javascript" src="./js/app.js"></script>
+    <script type="text/javascript" src="./js/mainCtrl.js"></script>
+    <script type="text/javascript" src="./js/timeDirective.js"></script>
+  </body>
+</html>
